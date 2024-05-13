@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">20%</item>
+
+    </style>
+    <style name="Widget.Theme.Material3.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+
+
+    <style name="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense</item>
+    </style>
+
+    <!-- Style to be used for the exposed dropdown menu. -->
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize the SearchView background color -->
+        <item name="android:background">@color/white</item>
+        <!-- Customize the SearchView text color -->
+        <item name="android:textColor">@color/black</item>
+        <!-- Customize the SearchView hint text color -->
+        <item name="android:textColorHint">@color/black</item>
+        <!-- Customize the SearchView text cursor color -->
+        <item name="colorControlActivated">@color/black</item>
+    </style>
+</resources>

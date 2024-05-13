@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16272157605",
+    "project_id": "learniverseapp-29af7",
+    "storage_bucket": "learniverseapp-29af7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16272157605:android:47f5fadfb815d0f3da564c",
+        "android_client_info": {
+          "package_name": "tarc.edu.my.learniverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW1BdJ6xnH2MLw8A-vuRxUlHw4TCWEdD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

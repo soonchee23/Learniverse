@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.question.AddQuestionFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/iv_add_image_question"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:background="@color/background_add_image"
+            android:contentDescription="@string/upload_image"
+            android:src="@drawable/baseline_add_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/editTextDescriptionQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/question_description"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTitleQuestion"
+        app:layout_constraintStart_toStartOf="@+id/editTextTitleQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTitleQuestion" />
+
+    <EditText
+        android:id="@+id/editTextTitleQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/question_description"
+        android:ems="10"
+        android:hint="@string/question_title"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDescriptionQuestion"
+        app:layout_constraintStart_toStartOf="@+id/editTextDescriptionQuestion"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDescriptionQuestion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

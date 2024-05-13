@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="tarc.edu.my.learniverse.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_note"
+        android:name="tarc.edu.my.learniverse.ui.note.NoteFragment"
+        android:label="@string/note"
+        tools:layout="@layout/fragment_note" >
+        <action
+            android:id="@+id/action_navigation_note_to_addNote"
+            app:destination="@id/add_note" />
+        <action
+            android:id="@+id/action_navigation_note_to_add_note"
+            app:destination="@id/add_note" />
+        <action
+            android:id="@+id/action_navigation_note_to_note_details"
+            app:destination="@id/note_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="tarc.edu.my.learniverse.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_tutor"
+        android:name="tarc.edu.my.learniverse.ui.tutor.TutorFragment"
+        android:label="@string/tutor"
+        tools:layout="@layout/fragment_tutor" >
+        <action
+            android:id="@+id/action_navigation_tutor_to_addTutorFragment"
+            app:destination="@id/addTutorFragment" />
+        <action
+            android:id="@+id/action_navigation_tutor_to_tutorDetails"
+            app:destination="@id/tutorDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_question"
+        android:name="tarc.edu.my.learniverse.ui.question.QuestionFragment"
+        android:label="@string/question"
+        tools:layout="@layout/fragment_question" >
+        <action
+            android:id="@+id/action_navigation_question_to_addQuestionFragment"
+            app:destination="@id/addQuestionFragment" />
+        <action
+            android:id="@+id/action_navigation_question_to_questionDetailsFragment"
+            app:destination="@id/questionDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_note"
+        android:name="tarc.edu.my.learniverse.ui.note.AddNoteFragment"
+        android:label="Add Note"
+        tools:layout="@layout/fragment_add_note" >
+        <action
+            android:id="@+id/action_addNote_to_navigation_note"
+            app:destination="@id/navigation_note" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/note_details"
+        android:name="tarc.edu.my.learniverse.ui.note.NoteDetailsFragment"
+        android:label="Note Details"
+        tools:layout="@layout/fragment_note_details" >
+        <action
+            android:id="@+id/action_note_details_to_navigation_note"
+            app:destination="@id/navigation_note" />
+    </fragment>
+    <fragment
+        android:id="@+id/addQuestionFragment"
+        android:name="tarc.edu.my.learniverse.ui.question.AddQuestionFragment"
+        android:label="Add Question"
+        tools:layout="@layout/fragment_add_question" >
+        <action
+            android:id="@+id/action_addQuestionFragment_to_navigation_question"
+            app:destination="@id/navigation_question" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionDetailsFragment"
+        android:name="tarc.edu.my.learniverse.ui.question.QuestionDetailsFragment"
+        android:label="Question Details"
+        tools:layout="@layout/fragment_question_details" >
+        <action
+            android:id="@+id/action_questionDetailsFragment_to_navigation_question"
+            app:destination="@id/navigation_question" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTutorFragment"
+        android:name="tarc.edu.my.learniverse.ui.tutor.AddTutorFragment"
+        android:label="Add Tutor"
+        tools:layout="@layout/fragment_add_tutor" >
+        <action
+            android:id="@+id/action_addTutorFragment_to_navigation_tutor"
+            app:destination="@id/navigation_tutor" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorDetails"
+        android:name="tarc.edu.my.learniverse.ui.tutor.TutorDetailsFragment"
+        android:label="Tutor Details"
+        tools:layout="@layout/fragment_tutor_details" >
+        <action
+            android:id="@+id/action_tutorDetails_to_navigation_tutor"
+            app:destination="@id/navigation_tutor" />
+    </fragment>
+</navigation>

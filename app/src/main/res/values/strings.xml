@@ -1,0 +1,156 @@
+<resources>
+    <string name="profile">Profile</string>
+    <string name="question">Question</string>
+    <string name="tutor">Tutor</string>
+
+    <string name="database_url">https://learniverseapp-29af7-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+    <string name="storage_url">gs://learniverseapp-29af7.appspot.com</string>
+
+    <string name="app_name">Learniverse</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="note_image">Note Image</string>
+    <string name="note_description">Note Description</string>
+    <string name="note">Note</string>
+    <string name="no_note_available">No Note Avaiable</string>
+    <string name="drop_img">Drop Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="note_title">Note Title</string>
+    <string name="save">Save</string>
+    <string name="note_author">Note Author</string>
+    <string name="desc">Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_note">Add Note</string>
+    <string name="chat">Chat</string>
+    <string name="note_link">Note Link</string>
+    <string name="note_phone">Phone Number</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="deriative">In this chapter we introduce Derivatives. We cover the standard derivatives formulas including the product rule, quotient rule and chain rule as well as derivatives of polynomials, roots, trig functions, inverse trig functions, hyperbolic functions, exponential functions and logarithm functions. We also cover implicit differentiation, related rates, higher order derivatives and logarithmic differentiation.</string>
+    <string name="title_activity_lev2">LEV2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="biology">Comparing the two petri dishes, the uncovered dish has eight more germinated seeds than the covered dish. This question relies on the student’s ability to understand the data in the chart. The other piece of data that you need is that a week is seven days. With both these in mind, it is obvious that exposure to light helps the seeds to germinate.</string>
+    <string name="Chemistry">In this first question, we see that a base Mg(OH)2 is being titrated by an acid HNO3. In order to determine the mass of the initial base, we need to perform a series of titration calculations. This is a great example of when your labs come in handy, since the lab can help you visualize what is going on. First, we need to determine the reaction that is occurring when Mg(OH)2 is reacted with HNO3. We first write out the equation we know, which is that the base and acid react to create water and an aqueous solution of the remaining ions: Mg(OH)2 + HNO3 → H2O + Mg2+ + NO3– We now need to balance the above reaction. Hydrogen is already balanced, so the next element we move to is Oxygen. We see that Oxygen is unbalanced with five oxygen on the left and four oxygen on the right. We can balance Oxygen by: Mg(OH)2 + 2HNO3 → 2H2O + Mg2+ + 2NO3– This gives us 8 oxygen molecules on either side. This simple balancing act has now balanced the entire equation with one Mg molecule, 8 O molecules, 4 H molecules and 2 N molecules on either side. Now we return to the titration problem. Since we know that the acid is being used as the titration solution, we know that HNO3 is in the buret. We also know that 20 mL is needed to get to the end point since: 22.17 mL – 2.17 mL = 20 mL Now that we know the molar mass of the base (58.3 grams), the molarity of the acid solution, and the amount of acid needed to titrate the bass and the balanced equation, we can perform a simple stoichiometric equation. Make sure to balance all your units and note that it takes 2 moles of HNO3 for every one mole of Mg(OH)2!</string>
+    <string name="geometry">Solution: In the given figure, there are three individual angles, (i.e.) 30°, 20° and 40°. Two angles in a pair of 2. (i.e.) 20° + 30° = 50° and 20 + 40 = 60° One angle in a pair of 3 (i.e) 20° + 30° + 40° = 90° Hence, the total number of possible angles in the given figure is 6.</string>
+    <string name="geometryV2">Solution: Given two angles are 35° and 95°. Let the unknown angle be “x”. We know that sum of angles of a triangle is 180° Therefore, 35°+95°+x = 180° 130°+ x = 180° x = 180° – 130° x = 50° Hence, the missing angle is 50°.</string>
+    <string name="index">Solution: (x-2√6)(5√3+5√2)/(5√3-5√2)=1 (x-2√6).5(√3+√2)/5(√3-√2)=1 i.e. (x-2√6)=(√3-√2)/(√3+√2) i.e. (x-2√6)=(√3-√2)^2/1 i.e. (x-2√6)=3+2-2√6 i.e. (x-2√6)=5-2√6 i.e. x=5.</string>
+    <string name="linearEquation">The given linear equation has infinitely many solutions because it represents a straight line with a slope of 4/10 and a y-intercept of -14/10. This means that for every value of x, there will be a corresponding value of y that satisfies the equation. In other words, there are an infinite number of points that lie on the line and satisfy the equation.</string>
+    <string name="linearEquationV2">The equation 2x – 3y = 5 has a unique solution if x and y are natural numbers. This means that x and y must be positive integers. If x and y were any other type of number, such as positive real numbers, real numbers, or rational numbers, there would be an infinite number of solutions to the equation. Therefore, the only way for the equation to have a unique solution is if x and y are natural numbers.</string>
+    <string name="Physic">First, we’ll need to rely on Newton’s Third Law of Motion. This law states that two bodies exert forces of equal magnitude and opposite direction on each other. In this case, the force that block Y exerts on block X has magnitude Fdown , and the force that block X exerts on block Y has magnitude Fup . By Newton’s Third Law, these forces should be equal in magnitude. So, we have that Fdown = Fup .</string>
+    <string name="physicV2">To answer this question, we can once again analyze the energy at both points. Since friction is negligible, we know that the total energy at both points is conserved, and therefore equal. So, the total energy at the beginning of the track consists only of gravitational potential energy. The total energy at the end of the track consists of both gravitational potential energy and kinetic energy. So U_initial = U_final + K, where U is potential energy and K is kinetic energy. Using angle Ug = mg angle y, K = 1/2mv^2. We see that , since the block is initially at height H. Also, Ufinal =mg(0.4), since the block is at height at the end of the ramp. Finally, K = 1/2mv^2. Then, our original equation becomes mgH = mg(0.4) + 1/2mv^2. We can cancel out from each term to get:. Let’s solve for Filling in and, we get: H = [9.8(0.4)+1/2(3)^2]/[9.8]. Once we solve for H, we see that H = 0.86m.</string>
+    <string name="add_question_fragment_label">Add Question</string>
+    <string name="question_title">Title</string>
+    <string name="question_description">Description</string>
+    <string name="done">Done</string>
+
+    <string name="title_tutor">Tutor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_tutor_available">No Tutor Available</string>
+    <string name="tutor_image">Tutor Image</string>
+    <string name="diploma">Diploma</string>
+    <string name="rate">4.5</string>
+    <string name="english">English</string>
+    <string name="tutor_highest_education">Tutor Highest Education</string>
+    <string name="tutor_rating">Tutor Rating</string>
+    <string name="tutor_strength">Tutor Strength</string>
+    <string name="add_tutor">Add Tutor</string>
+
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="slogan">Unlock Your Learning\nUniverse with Learniverse!</string>
+    <string name="dob">Date of Birth</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="description">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+
+
+    <string name="learniverse">LEARNIVERSE</string>
+    <string name="search">SEARCH QUESTIONS</string>
+    <string name="slogandonate">Donate the most you can Do the best you can </string>
+    <string name="donation">Donation</string>
+    <string name="from5home">From 5-Mathematics-Geometry</string>
+    <string name="jennie">Jennie</string>
+    <string name="donatepara">  The numbers are impressive. People donated nearly USD 835 billion in cross-border philanthropy in
+        2018, USD 658 billion from private sources. Globally, one billion volunteers donated their time and energy to charities.
+        Why do people donate their money and time? Is it because we’re inherently kind? Or, are we fundamentally greedy and only
+        give because we have ulterior motives or expect reciprocity?</string>
+    <string name="view">100 view</string>
+    <string name="solution">Solution</string>
+    <string name="mk">Man Kei</string>
+    <string name="questions">Why the x = 5 instead of 7? The 3 is get from the square but I did not get the 8..
+        Anyone knows how to solve it? The 3 is get from the square but I did not get the 8.
+        Anyone is know the solution? Thnaks :)</string>
+    <string name="time">Today  12:00pm</string>
+    <string name="answer">Before you finding the parameter, you should add the 3 and 4.
+        Just to find the parameter is not too hard. Here is the work flow for you.</string>
+    <string name="profile_user_image">Tutor Name</string>
+    <string name="profile_user_name">Jennie</string>
+    <string name="profile_my_pet_profile">My Pet Profile</string>
+
+    <string name="profile_community_post">Community Post</string>
+    <string name="profile_pet_for_adoption">Pet For Adoption</string>
+
+    <string name="tutor_name">Tutor Name</string>
+    <string name="tutor_email">Tutor Email</string>
+    <string name="mathemetic">Mathematics</string>
+
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+
+</resources>

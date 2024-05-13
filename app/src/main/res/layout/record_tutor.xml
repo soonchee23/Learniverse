@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blueFA"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center_vertical"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/tutor_item_image"
+            android:layout_width="53dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/tutor_image"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/tutor" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tutor_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textStyle="bold"
+        tools:text="Kaw Kai Xiang" />
+
+    <TextView
+        android:id="@+id/tutor_item_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        tools:text="kawkx@gmail.com" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tutor_highedu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Highest Education" />
+
+        <TextView
+            android:id="@+id/tutor_item_he"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/diploma"
+            app:layout_constraintStart_toStartOf="@+id/guideline_tutor_details"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tutor_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tutor_highedu"
+            tools:text="Rating" />
+
+        <TextView
+            android:id="@+id/tutor_item_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/rate"
+            app:layout_constraintStart_toStartOf="@+id/guideline_tutor_details"
+            app:layout_constraintTop_toBottomOf="@+id/tutor_item_he" />
+
+        <TextView
+            android:id="@+id/tutor_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tutor_rate"
+            tools:text="Strength" />
+
+        <TextView
+            android:id="@+id/tutor_item_strength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/english"
+            app:layout_constraintStart_toStartOf="@+id/guideline_tutor_details"
+            app:layout_constraintTop_toBottomOf="@+id/tutor_item_rate" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_tutor_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="196dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
